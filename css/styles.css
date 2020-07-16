@@ -1,5 +1,14 @@
 body{
   margin: 0;
+  border-color: #999999;
+  background: #dedede url(../images/textures/scratches.jpg);
+  background: url(../images/textures/scratches.jpg), -webkit-gradient(linear, left top, left bottom, from(#aaaaaa), to(#aaaaaa), color-stop(0.25, #f2f2f2), color-stop(0.38, #ffffff), color-stop(0.63, #c5c5c5), color-stop(0.87, #f7f7f7));
+  background: url(../images/textures/scratches.jpg), -webkit-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
+  background: url(../images/textures/scratches.jpg), -moz-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
+  background: url(../images/textures/scratches.jpg), -ms-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
+  background: url(../images/textures/scratches.jpg), -o-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
+  background: url(../images/textures/scratches.jpg), linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
+
 }
 
 h1 {
@@ -42,15 +51,7 @@ hr{
 */
 
 .top_div{
-  border-color: #999999;
-  background: #dedede url(../images/textures/scratches.jpg);
-  background: url(../images/textures/scratches.jpg), -webkit-gradient(linear, left top, left bottom, from(#aaaaaa), to(#aaaaaa), color-stop(0.25, #f2f2f2), color-stop(0.38, #ffffff), color-stop(0.63, #c5c5c5), color-stop(0.87, #f7f7f7));
-  background: url(../images/textures/scratches.jpg), -webkit-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
-  background: url(../images/textures/scratches.jpg), -moz-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
-  background: url(../images/textures/scratches.jpg), -ms-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
-  background: url(../images/textures/scratches.jpg), -o-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
-  background: url(../images/textures/scratches.jpg), linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
 }
 
@@ -59,9 +60,9 @@ hr{
   color: #293133;
   font-family: 'Sacramento', cursive;
   padding: 0.5%;
-  top: 45%;
-  left: 15%;
-  width: 15%;
+  margin-top: -30%;
+  left: 21%;
+  width: 50%;
 }
 
 .top_div .titletext h1{
@@ -71,26 +72,16 @@ hr{
 
 .middle_div{
 
-  border-color: #999999;
-  background: #dedede url(../images/textures/scratches.jpg);
-  background: url(../images/textures/scratches.jpg), -webkit-gradient(linear, left top, left bottom, from(#aaaaaa), to(#aaaaaa), color-stop(0.25, #f2f2f2), color-stop(0.38, #ffffff), color-stop(0.63, #c5c5c5), color-stop(0.87, #f7f7f7));
-  background: url(../images/textures/scratches.jpg), -webkit-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
-  background: url(../images/textures/scratches.jpg), -moz-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
-  background: url(../images/textures/scratches.jpg), -ms-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
-  background: url(../images/textures/scratches.jpg), -o-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
-  background: url(../images/textures/scratches.jpg), linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
-
-  width: 100%;
-  top:0;
-  left:0;
-  width:100%;
   height:100%;
+  width: 100%;
+  /* top:0;
+  left:0; */
 }
 
-/* .bottom_div{
-  background-color: blue;
-  height: 50px;
-} */
+.bottom_div{
+  height: 80px;
+  width: 100%;
+}
 
 .row {
   top: 10%;
@@ -117,7 +108,7 @@ hr{
   width: 24.5%;
   height: 15.7%;
   vertical-align: top;
-  margin: 19.8% 1.9% 2.5% 11.8%;
+  margin: 23.5% 1.9% 2.5% 13%;
   cursor: pointer;
   position: relative;
   font-family: 'Assistant', sans-serif;
@@ -233,6 +224,11 @@ hr{
 
 .homepage_img{
   width: 50%;
+  margin-top: 5%;
+  margin-left: 5%;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
 }
 
 .quarantena-img {
