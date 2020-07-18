@@ -5,16 +5,16 @@
     <title>Fra&Sara</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Sacramento&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/icon.png">
+    <link rel="icon" href="images/icons/icon.png">
+    <script src = "js/script.js"></script>
   </head>
   <body>
     <div class="top_div">
-      <img class="homepage_img" src="images/flowers.png">
-      <div class="titletext">
-        <a class="btn" href="#caricafoto">
-          VAI AL SITO
-        </a>
-      </div>
+      <img class="coronafiori-img" src="images/coronafiori.png">
+      <!-- <div class="titletext">
+          <img class="freccia-img" src="images/freccia.png" href="#caricafoto" />
+
+      </div> -->
       <div class="wrapper">
         <div class="item">
           <span class="welcome">
@@ -33,39 +33,47 @@
     <div class="middle_div">
       <div class="rows">
         <div class="row" id="caricafoto">
-          <img class="quarantena-img" src="images\quarantena.png">
-          <h2>Foto</h2>
-          <p>Inserisci qui una nuova foto!
-            <a class="btn" href="#">
-              CARICA
-            </a>
-          </p>
+          <img class="caricafoto-img" src="images\caricafoto3.png">
+          <h2 style="margin-left: 11%;">Inserisci nuove Foto</h2>
+          <a style="margin-left:14%;" class="btn" href="#">
+            CARICA
+          </a>
+        </div>
+        <div class="row" id="cercafoto">
+          <img class="cercafoto-img" src="images\cercafoto.png">
+          <h2>Cerca Foto</h2>
+          <a style="margin-left:16%;" class="btn" href="#">
+            CERCA
+          </a>
         </div>
         <hr>
         <div class="row">
-          <img class="quarantena-img" src="images\quarantena.png">
-          <h2>Foto</h2>
-          <p>Inserisci qui una nuova foto!
-            <a class="btn" href="#">
-              CARICA
-            </a>
-          </p>
+          <img class="chiesa-img" src="images\chiesa.png">
+          <h2 style="margin-left: 30%;">Chiesa</h2>
+          <p>Via G.B. de Rossi, 46 - 00161 Roma (RM)</p>
+          <!-- http://maps.apple.com -->
+          <a class="btn" onclick="visualizza(div_nascosto);">
+            COME ARRIVARE
+          </a>
+          <div id="div_nascosto">
+            <h4 href="https://waze.com/ul">WAZE</h4>
+            <h4 href="https://waze.com/ul">MAPS</h4>
+          </div>
         </div>
-        <hr>
         <div class="row">
-          <img class="villafiore-img" src="images\villafiore.png">
-          <h2>Ricevimento</h2>
-          <p>FIORE srls - Via Di Moro Lungo,1 - 00010 Sant'Angelo Romano (RM)</p>
-          <p>Clicca qui per scoprire come arrivare
-            <a class="btn" href="https://www.google.it/maps/place/Villa+Fiore+Ricevimenti/@42.0379175,12.7004843,17z/data=!3m1!4b1!4m5!3m4!1s0x132f70d78fefad45:0x92a561f856a8e3e8!8m2!3d42.0379175!4d12.702673">
-              INFO
-            </a>
+          <img class="ricevimento-img" src="images\ricevimento.png">
+          <h2 style="margin-left: 21%;">Ricevimento</h2>
+          <p>Via Di Moro Lungo,1 - 00010 Sant'Angelo Romano (RM)
+            <br>Clicca qui per scoprire
           </p>
+          <a class="btn" href="https://www.google.it/maps/place/Villa+Fiore+Ricevimenti/@42.0379175,12.7004843,17z/data=!3m1!4b1!4m5!3m4!1s0x132f70d78fefad45:0x92a561f856a8e3e8!8m2!3d42.0379175!4d12.702673">
+            COME ARRIVARE
+          </a>
         </div>
       </div>
     </div>
 
-    <div class="bottom_div">
+    <div class="contact_me">
 
     </div>
 

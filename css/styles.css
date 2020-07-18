@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   border-color: #999999;
   background: #dedede url(../images/textures/scratches.jpg);
@@ -8,12 +8,11 @@ body{
   background: url(../images/textures/scratches.jpg), -ms-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
   background: url(../images/textures/scratches.jpg), -o-linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
   background: url(../images/textures/scratches.jpg), linear-gradient(top, #aaaaaa, #f2f2f2 25%, #ffffff 38%, #c5c5c5 63%, #f7f7f7 87%, #aaaaaa);
-
 }
 
 h1 {
   color: #293133;
-  font-size: 2.5rem;
+  font-size: 3.5vw;
   margin: 60px auto 0 20px;
   font-family: 'Sacramento', cursive;
   padding: 20px;
@@ -22,26 +21,35 @@ h1 {
 h2 {
   color: #293133;
   font-family: 'Assistant', sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
+  font-size: 3.3vw;
+  font-weight: bold;
   padding-bottom: 10px;
+  margin: 2.5% 0 5.3% 40%;
 }
 
 h3 {
   color: #293133;
   font-family: 'Assistant', sans-serif;
+  font-size: 3.3vw;
 }
 
-h4{
+h4 {
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
 }
 
-hr{
+p {
+  font-size: 1.5vw;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+hr {
   border: dotted #293133 6px;
   border-bottom: none;
-  width: 4%;
-  margin: 30px auto;
+  width: 10%;
+  margin: 7% auto;
 }
 
 /*
@@ -49,36 +57,31 @@ hr{
     DIV
 
 */
-
-.top_div{
+.top_div {
   /* position: absolute; */
   width: 100%;
 }
 
-.top_div .titletext{
+.top_div .titletext {
+  margin-top: 0;
+  bottom: 0;
+  top: 61%;
   position: absolute;
   color: #293133;
   font-family: 'Sacramento', cursive;
   padding: 0.5%;
-  margin-top: -30%;
-  left: 21%;
+  left: 24%;
   width: 50%;
 }
 
-.top_div .titletext h1{
-  width: 50%;
-  float: left;
-}
-
-.middle_div{
-
-  height:100%;
+.middle_div {
+  height: 100%;
   width: 100%;
   /* top:0;
   left:0; */
 }
 
-.bottom_div{
+.bottom_div {
   height: 80px;
   width: 100%;
 }
@@ -103,12 +106,18 @@ hr{
 
 */
 
+.div_nascosto{
+  display:none;
+  padding:4px;
+}
+
+
 .wrapper {
   display: inline-block;
   width: 24.5%;
   height: 15.7%;
   vertical-align: top;
-  margin: 23.5% 1.9% 2.5% 13%;
+  margin: 17.5% 1.9% 2.5% 13%;
   cursor: pointer;
   position: relative;
   font-family: 'Assistant', sans-serif;
@@ -128,15 +137,15 @@ hr{
   width: 90%;
   top: 0;
   border-radius: 3px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
   text-align: center;
   padding: 4.5%;
-  text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
   transform: translateZ(50px);
   transition: all .6s;
 }
 
-.item .welcome h1{
+.item .welcome h1 {
   margin: 0 auto 0 auto;
   vertical-align: middle;
   padding: 7px;
@@ -151,16 +160,14 @@ hr{
   text-align: center;
   border-radius: 15px;
   padding: 4.5%;
-  text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
   box-shadow: none;
-
-  background: url(../images/textures/wood.jpg), -o-linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/wood.jpg), linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/wood.jpg), -ms-linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/wood.jpg), -webkit-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/wood.jpg), -webkit-linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/wood.jpg), -moz-linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-
+  background: url(../images/textures/wood.jpg), -o-linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/wood.jpg), linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/wood.jpg), -ms-linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/wood.jpg), -webkit-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/wood.jpg), -webkit-linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/wood.jpg), -moz-linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
   transform: rotateX(-90deg) translateZ(50px);
   transition: all .6s;
 }
@@ -175,7 +182,7 @@ hr{
 }
 
 .item:hover .information {
-  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
   border-radius: 3px;
 }
 
@@ -184,61 +191,72 @@ hr{
     BUTTON
 
 */
-
 .btn {
-
-  background: url(../images/textures/wood.jpg), -o-linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/wood.jpg), linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/wood.jpg), -ms-linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/wood.jpg), -webkit-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/wood.jpg), -webkit-linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/wood.jpg), -moz-linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
+  background: url(../images/textures/wood.jpg), -o-linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/wood.jpg), linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/wood.jpg), -ms-linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/wood.jpg), -webkit-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/wood.jpg), -webkit-linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/wood.jpg), -moz-linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.6vw;
+  text-align: center;
   color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 0.45em 0.9em;
   text-decoration: none;
+  margin-left: 20%;
 }
 
 .btn:hover {
-  background: url(../images/textures/metalic.jpg), -o-linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/metalic.jpg), linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/metalic.jpg), -ms-linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/metalic.jpg), -webkit-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/metalic.jpg), -webkit-linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
-  background: url(../images/textures/metalic.jpg), -moz-linear-gradient(left,rgba(236,241,244,1) 0%,rgba(190,202,217,1) 100%);
+  background: url(../images/textures/metalic.jpg), -o-linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/metalic.jpg), linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/metalic.jpg), -ms-linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/metalic.jpg), -webkit-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/metalic.jpg), -webkit-linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
+  background: url(../images/textures/metalic.jpg), -moz-linear-gradient(left, rgba(236, 241, 244, 1) 0%, rgba(190, 202, 217, 1) 100%);
   text-decoration: none;
 }
-
-
 
 /*
 
    IMMAGINI
 
 */
-
-.homepage_img{
+.coronafiori-img {
   width: 50%;
-  margin-top: 5%;
   margin-left: 5%;
   /* display: block;
   margin-left: auto;
   margin-right: auto; */
 }
 
-.quarantena-img {
+.freccia-img {
+  width: 15%;
+}
+
+.cercafoto-img {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
 
-.villafiore-img {
+.caricafoto-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chiesa-img {
   width: 25%;
   float: right;
-  margin-left: 30px;
+  margin: 7% auto auto 4%;
+}
+
+.ricevimento-img {
+  width: 25%;
+  float: right;
+  margin: 7% auto auto 4%;
 }
